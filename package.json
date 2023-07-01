@@ -1,0 +1,19 @@
+{
+  "name": "expressproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Goutam Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.5",
+    "boxicons": "^2.1.4",
+    "express": "^4.18.2",
+    "google": "^2.1.0",
+    "hbs": "^4.2.0",
+    "icons": "^1.0.0"
+  }
+}
