@@ -31,6 +31,26 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     </head>
+     <style>
+          @media only screen and (max-width: 450px) and (min-width: 350px)  {
+            #city_name{
+                width: 330px;
+                margin-left: -60px;
+            }
+            #submitbtn{
+                width: 100px;
+                position: absolute;
+                right: -52px;
+                
+            }
+            .top_layer #todaydata{
+                overflow: hidden;
+            }
+            .tempinformation{
+                width: 350px;
+            }
+          }
+    </style>
     <body>
         <div class="container-fluid main_menu">
             <div class="row">
@@ -42,7 +62,7 @@
                                 X-Weather <i
                                     class="fa-sharp fa-solid fa-snowflake"></i>
                             </a>
-                            <button class="navbar-toggler" type="button"
+                            <button class="navbar-toggler" style="background-color: antiquewhite;" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent"
                                 aria-controls="navbarSupportedContent"
